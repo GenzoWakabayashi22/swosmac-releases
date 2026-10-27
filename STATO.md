@@ -1,13 +1,13 @@
 # STATO — SWOS Mac releases (download del DMG)
 
-> Ultimo aggiornamento: 2026-10-18 · casa · Claude Sonnet 5.5
-> Riga indice: Repo pubblico che ospita solo le Release (ultima v6.7.2, 2026-10-16) del DMG di SWOS 2020 Mac Edition; prossimo passo: nuova Release solo se esce una nuova versione.
+> Ultimo aggiornamento: 2026-10-27 · casa · Claude Sonnet 5.5
+> Riga indice: Repo pubblico che ospita solo le Release (ultima v6.8, 2026-10-27) del DMG di SWOS 2020 Mac Edition; prossimo passo: nuova Release solo se esce una nuova versione.
 
 ## Cos'è
 Repo GitHub **pubblico** `GenzoWakabayashi22/swosmac-releases` (https://github.com/GenzoWakabayashi22/swosmac-releases) che contiene solo un `README.md` e, nelle **Release**, il file `SWOS-2020-Mac-Edition.dmg` (circa 215 MB; Cloudflare accetta file di 25 MB, per questo il DMG non sta nel sito). In Developer: `Siti/SwosMac-releases/`. Il sito di download è `Siti/SwosMac/` (swosmac.nathco.app).
 
 ## Dove siamo arrivati
-- Ultima Release: **v6.7.2** (2026-10-16), «Latest»; precedenti 6.7.1 (2026-10-14), 6.7 (2026-10-13), 6.6.1 e 6.6 (2026-10-12) (letto con `gh release list`).
+- Ultima Release: **v6.8** (2026-10-27), «Latest», DMG 215.135.119 byte (SHA-256 `ee9c0fb2…7d47`); precedenti 6.7.2 (2026-10-16), 6.7.1 (2026-10-14), 6.7 (2026-10-13), 6.6.1 e 6.6 (2026-10-12) (letto con `gh release list`).
 - Il link «latest» del sito punta alla Release più recente: si aggiorna da solo.
 - Repo locale pulito e allineato con `origin/main` (2026-10-18). Ultimo commit 2026-10-09: README con la rinomina in «SWOS 2020 Mac Edition».
 
@@ -25,6 +25,7 @@ Repo GitHub **pubblico** `GenzoWakabayashi22/swosmac-releases` (https://github.c
 - Documento correlato: `Siti/SwosMac/STATO.md` e `Siti/SwosMac/README.md`.
 
 ## Cronologia
+- 2026-10-27 — Release v6.8 (DMG notarizzato) — casa, Claude Sonnet 5.5
 - 2026-10-18 — creato STATO.md dalla lettura di README/git log/documenti — casa, Claude Sonnet 5.5
 - 2026-10-16 — Release v6.7.2 (DMG)
 - 2026-10-14 — Release v6.7.1; 2026-10-13 v6.7; 2026-10-12 v6.6.1 e v6.6
