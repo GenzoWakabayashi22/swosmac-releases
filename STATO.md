@@ -1,18 +1,19 @@
 # STATO — SWOS Mac releases (download del DMG)
 
-> Ultimo aggiornamento: 2026-10-27 · casa · Claude Sonnet 5.5
-> Riga indice: Repo pubblico che ospita solo le Release (ultima v6.8, 2026-10-27) del DMG di SWOS 2020 Mac Edition; prossimo passo: nuova Release solo se esce una nuova versione.
+> Ultimo aggiornamento: 2026-11-01 · casa · Claude Sonnet 5.5
+> Riga indice: Repo pubblico che ospita solo le Release (ultima v7.0, 2026-11-01) del DMG di SWOS Mac (ex SWOS 2020 Mac Edition); da 7.0 il file si chiama SWOS-Mac.dmg; prossimo passo: nuova Release solo se esce una nuova versione.
 
 ## Cos'è
 Repo GitHub **pubblico** `GenzoWakabayashi22/swosmac-releases` (https://github.com/GenzoWakabayashi22/swosmac-releases) che contiene solo un `README.md` e, nelle **Release**, il file `SWOS-2020-Mac-Edition.dmg` (circa 215 MB; Cloudflare accetta file di 25 MB, per questo il DMG non sta nel sito). In Developer: `Siti/SwosMac-releases/`. Il sito di download è `Siti/SwosMac/` (swosmac.nathco.app).
 
 ## Dove siamo arrivati
+- **Ultima Release: v7.0 (2026-11-01), «Latest»**, titolo «SWOS Mac 7.0», DMG `SWOS-Mac.dmg` 235.723.952 byte, SHA-256 `baafb69b656d17b6e488f6c040c447527ce7adca15610145f38f4c5d90b7800e` (scaricato dal link «latest» e confrontato). **Cambio di nome del file:** i vecchi link a `SWOS-2020-Mac-Edition.dmg` con `latest` ora danno 404; le Release fino alla 6.8 conservano il vecchio nome. Tag `v7.0` anche nel repo privato SWOS (commit 0294e17).
 - Ultima Release: **v6.8** (2026-10-27), «Latest», DMG 215.135.119 byte (SHA-256 `ee9c0fb2…7d47`); precedenti 6.7.2 (2026-10-16), 6.7.1 (2026-10-14), 6.7 (2026-10-13), 6.6.1 e 6.6 (2026-10-12) (letto con `gh release list`).
 - Il link «latest» del sito punta alla Release più recente: si aggiorna da solo.
 - Repo locale pulito e allineato con `origin/main` (2026-10-18). Ultimo commit 2026-10-09: README con la rinomina in «SWOS 2020 Mac Edition».
 
 ## Prossimo passo
-1. Nessuno. Quando esce una nuova versione dell'app: `gh release create vX.Y SWOS-2020-Mac-Edition.dmg` (il file deve chiamarsi esattamente così), poi aggiornare versione e peso in `Siti/SwosMac/index.html` e ripubblicare il sito (vedi `Siti/SwosMac/STATO.md`).
+1. Nessuno. Quando esce una nuova versione dell'app: `gh release create vX.Y SWOS-Mac.dmg` (il file deve chiamarsi esattamente così, dalla 7.0), poi aggiornare versione e peso in `Siti/SwosMac/index.html` e ripubblicare il sito (vedi `Siti/SwosMac/STATO.md`).
 
 ## In sospeso / trappole
 - Il nome del gioco è **SWOS 2020 Mac Edition** (rinomina richiesta il 2026-10-09 da sensiblesoccer.de; «SWOS United» sarà il loro prossimo gioco nativo): non usare il vecchio nome. Il vecchio file `SWOS-United-Mac.dmg` della Release v5.2 è storia (da verificare se ancora presente).
